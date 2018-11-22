@@ -6,5 +6,6 @@ public class sdg {
 		System.out.println("");
 		System.out.println("test");
 		System.out.println("牛璐璐测试");
+		System.out.println("test");
 	}
 }
