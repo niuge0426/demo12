@@ -6,6 +6,7 @@ public class TestString {
 		System.out.println("ceshi.............");
 		String str = "jhlsdgkas";
 		System.out.println(str);
+		System.out.println("TEST");
 	}
 
 }
