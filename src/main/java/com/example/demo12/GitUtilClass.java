@@ -26,6 +26,7 @@ public class GitUtilClass {
         String newBranchIndex = "refs/heads/"+branchName;
         String gitPathURI = "";
         Git git = null;
+        
 //        RepoSummary
         /*RevCommit revCommit=repoSummary.getLatestCommit();
         //RevCommit revCommit
