@@ -4,7 +4,9 @@ public class TestString {
 	
 	public static void main(String[] args) {
 		System.out.println("ceshi.............");
-		System.out.println("TEST");
+		String str = "jhlsdgkas";
+		System.out.println(str);
+		System.out.println("测试冲突");
 	}
 
 }
