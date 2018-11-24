@@ -8,6 +8,8 @@ public class test {
 		System.out.println("hldgkjasd");
 		System.out.println("test");
 		System.out.println("TEST");
+		String str = "测试冲突";
+		System.out.println(str);
 	}
 
 }
