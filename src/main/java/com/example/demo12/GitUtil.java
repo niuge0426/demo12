@@ -154,6 +154,27 @@ public class GitUtil {
 
         return rd.compute();
     }
+    
+    public static void main(String[] args) {
+    	String gitRoot = "D:\\Workspaces\\developeWorkSpace\\demo12";
+    	String revision = "79007205451fe4ae724ee2c6be44d34496592d49";
+		try {
+			List<DiffEntry> log = GitUtil.getLog(gitRoot, revision);
+			System.out.println(log.toString());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//验证成功，不要轻易使用
+		/*try {
+			boolean b = GitUtil.rollBackPreRevision(gitRoot, revision);
+			System.out.println(b);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+	}
 }
 
 
