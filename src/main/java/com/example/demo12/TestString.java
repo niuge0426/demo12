@@ -7,6 +7,7 @@ public class TestString {
 		String str = "jhlsdgkas";
 		System.out.println(str);
 		System.out.println("测试冲突");
+		System.out.println("TEST");
 	}
 
 }
